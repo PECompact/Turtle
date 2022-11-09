@@ -1,0 +1,15 @@
+import turtle 
+turtle.screensize(1000,800,"yellow")
+turtle.pencolor("green")
+turtle.width(5)
+turtle.speed(10)
+for i in range(5):
+    turtle.circle(120-i*20)
+    turtle.penup()
+    turtle.goto(0, 20+i*20)
+    turtle.pendown()
+turtle.fillcolor("red")
+turtle.begin_fill()
+turtle.circle(20)
+turtle.end_fill()
+turtle.done()

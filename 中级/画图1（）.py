@@ -1,0 +1,16 @@
+import turtle as a
+a.pensize(15)
+a.pencolor("green")
+a.fillcolor("red")
+a.begin_fill()
+a.forward(100)
+a.left(90)
+a.forward(100)
+a.left(90)
+a.forward(100)
+a.left(90)
+a.forward(100)
+a.left(90)
+a.end_fill()
+a.hideturtle()
+
